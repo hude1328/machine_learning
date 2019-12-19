@@ -1,0 +1,20 @@
+
+In this assignment, you will create an application that performs object 
+recognition using a deep learning model.
+
+There are three components in this system:
+
+1 main.py: a program that keep reading user input from the command prompt, 
+and is also responsible for printing out the results for the user to read.
+
+2 image_downloader.py: a program that is responsible for downloading images 
+from either Telegram or a given URL
+
+3 predict.py: a program that loads a PyTorch pre-trained model for object 
+recognition, and generates predictions when given an image
+
+
+
+These three programmes are assumed to be located on different servers, and 
+you should achieve connections between them with asychronous messaging using 
+Redis.
