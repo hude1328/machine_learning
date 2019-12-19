@@ -1,0 +1,23 @@
+
+In this assignment, you will build a text classifier of movie reviews, and then deploy 
+the text classifier as a chatbot on Telegram to allow other people to use it. The task
+you will be working on is a binary classification problem: given a movie review, 
+determine if it is positive or negative.
+
+
+
+We will use a dataset of movie reviews collected from IMDb, which is a movie 
+database where Internet users can leave their comments about movies. 
+The dataset can be obtained from the following Webpage: 
+http://ai.stanford.edu/~amaas/data/sentiment/.
+
+
+
+Your bot should fulfil the following requirements:
+
+Whenever it receives a message from a user, it should pass the message into the 
+text classification model.
+If the model predicts that it is positive, the bot should say “This is a positive 
+review!”, otherwise the bot should say “This is a negative review!”.
+At the end of the message, you should append also the probability of the predicted 
+class, up to 2 decimal places
